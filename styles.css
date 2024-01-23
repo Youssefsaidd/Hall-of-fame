@@ -13,7 +13,7 @@ header {
     text-align: center;
     padding: 20px;
     color: #fff;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Bangers', cursive; /* Bangers font for the title */
 }
 
 .main-content {
@@ -34,5 +34,5 @@ header {
     text-align: center;
     color: #fff;
     font-size: 24px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Changa', sans-serif; /* Changa font for the main content */
 }
