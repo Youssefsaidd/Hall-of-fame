@@ -1,7 +1,6 @@
-/* Add this CSS code to styles_page2.css */
-
+/* Reset body background to none */
 body {
-    background: none; /* or background: transparent; */
+    background: none;
     margin: 0;
     padding: 0;
 }
@@ -39,17 +38,17 @@ header {
 
 /* Add specific styles for each image */
 .image:nth-child(1) {
-    background-image: url(raul.jpg);
+    background-image: url('raul.jpg');
 }
 
 .image:nth-child(2) {
-    background-image: url(zizo.jpg);
+    background-image: url('zizo.jpg');
 }
 
 .image:nth-child(3) {
-    background-image: url(ronaldinho.jpg);
+    background-image: url('ronaldinho.jpg');
 }
 
 .image:nth-child(4) {
-    background-image: url(paolo maldini.jpg);
+    background-image: url('paolo_maldini.jpg');
 }
