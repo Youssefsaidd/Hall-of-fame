@@ -1,6 +1,7 @@
 /* Add this CSS code to styles_page2.css */
 
 body {
+    background: none; /* or background: transparent; */
     margin: 0;
     padding: 0;
 }
