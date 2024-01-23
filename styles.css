@@ -6,15 +6,14 @@ body {
 .container {
     position: relative;
     height: 100vh;
-    background: url(wallpaperflare.com_wallpaper (9).jpg
-).jpg) center/cover no-repeat;
+    background: url('wallpaperflare.com_wallpaper%20(9).jpg') center/cover no-repeat;
 }
 
 header {
     text-align: center;
     padding: 20px;
     color: #fff;
-    font-family: 'YourCoolFont', sans-serif; /* Replace 'YourCoolFont' with the actual font you want to use */
+    font-family: 'Arial', sans-serif;
 }
 
 .main-content {
@@ -35,5 +34,5 @@ header {
     text-align: center;
     color: #fff;
     font-size: 24px;
-    font-family: 'YourCoolFont', sans-serif; /* Replace 'YourCoolFont' with the actual font you want to use */
+    font-family: 'Helvetica', sans-serif;
 }
