@@ -42,11 +42,11 @@ header {
 }
 
 .image:nth-child(2) {
-    background-image: url('image2.jpg');
+    background-image: url(zizo.jpg);
 }
 
 .image:nth-child(3) {
-    background-image: url('image3.jpg');
+    background-image: url();
 }
 
 .image:nth-child(4) {
