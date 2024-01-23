@@ -1,0 +1,54 @@
+/* Add this CSS code to styles_page2.css */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Bangers', cursive; /* Bangers font for the title */
+}
+
+.main-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.image-container {
+    display: flex;
+    height: 100%; /* Full height of the container */
+}
+
+.image {
+    flex: 1; /* Equal width for each image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Add specific styles for each image */
+.image:nth-child(1) {
+    background-image: url('image1.jpg');
+}
+
+.image:nth-child(2) {
+    background-image: url('image2.jpg');
+}
+
+.image:nth-child(3) {
+    background-image: url('image3.jpg');
+}
+
+.image:nth-child(4) {
+    background-image: url('image4.jpg');
+}
