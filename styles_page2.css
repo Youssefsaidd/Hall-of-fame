@@ -38,7 +38,7 @@ header {
 
 /* Add specific styles for each image */
 .image:nth-child(1) {
-    background-image: url('image1.jpg');
+    background-image: url(raul.jpg);
 }
 
 .image:nth-child(2) {
