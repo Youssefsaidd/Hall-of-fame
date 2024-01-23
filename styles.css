@@ -36,3 +36,23 @@ header {
     font-size: 24px;
     font-family: 'Changa', sans-serif; /* Changa font for the main content */
 }
+
+/* New styles for the button */
+.next-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF; /* Blue color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
