@@ -1,6 +1,5 @@
 /* Reset body background to none */
 body {
-    background: none;
     margin: 0;
     padding: 0;
 }
@@ -8,21 +7,16 @@ body {
 .container {
     position: relative;
     height: 100vh;
+    background: none; /* Set background to none */
 }
 
-header {
-    text-align: center;
-    padding: 20px;
-    color: #fff;
-    font-family: 'Bangers', cursive; /* Bangers font for the title */
+/* Additional styles for page 2 */
+body.page-2 {
+    background: none;
 }
 
-.main-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+.container.page-2 {
+    background: none;
 }
 
 .image-container {
@@ -52,3 +46,4 @@ header {
 .image:nth-child(4) {
     background-image: url('paolo_maldini.jpg');
 }
+
